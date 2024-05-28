@@ -1,4 +1,6 @@
-import java.rmi.RemoteException; 
+package com.unsa.server.rmi_server.service;
+
+import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject; 
 
 public class CalculatorServiceImpl extends UnicastRemoteObject  
