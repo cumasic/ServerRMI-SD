@@ -11,7 +11,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 @Configuration
-public class App {
+public class AppConfig {
 
     @Bean
     public Registry registry() throws RemoteException {
