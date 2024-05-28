@@ -1,4 +1,6 @@
-import java.rmi.Remote; 
+package com.unsa.server.rmi_server.service;
+
+import java.rmi.Remote;
 import java.rmi.RemoteException; 
 
 public interface CalculatorService extends Remote { 
